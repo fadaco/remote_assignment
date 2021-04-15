@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 83%;
+       margin: 20px 30px;
+    padding: 30px 0;
+    background: #000000;
+    -ms-overflow-style: none;
+    -webkit-scrollbar-width: none;
+    scrollbar-width: none;
+}
+
+.image-container {
+       margin: 0 0 0 8px;
+      padding:0;
+      width: 300px;
+      height: 190px;
+}
+
+.inside-container {
+  display: flex;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+    color: #ffffff;
+    bottom: -24px;
+    right: 50%;
+}
+
+.button-arrow {
+  cursor: pointer;
+   position: absolute;
+    z-index: 999;
+    background: #000000;
+}
+
+ion-icon {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.left {
+  left: 140px;
+   
+}
+
+.right {
+  right: 140px;
+}
